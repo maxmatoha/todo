@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo приложение</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- container -->
+		<div class="container">
+			<!-- Заголовок -->
+			<h1>ToDo приложение</h1>
+			<h4>список задач на сегодня</h4>
+			<!-- Список задач -->
+			<div class="list">
+				<ul id="list-group" class="list-group">
+					<li id="empty-list-item" class="list-group-item">Список дел пуст</li>
+
+					
+				</ul>
+			</div>
+			<!-- // Список задач -->
+
+			<!-- Форма добавления новых задач -->
+			<div class="card">
+				<div class="card-header">Добавить новую задачу</div>
+				<div class="card-body">
+					<form id="newTaskForm">
+						<div class="form-group">
+							<input type="text" class="form-input" id="addNewTask" placeholder="Текст задачи" autofocus required/>
+							<small id="emailHelp" class="form-text">Что делаем, сколько времени тратим, какой результат получаем.</small>
+						</div>
+						<button type="submit" class="form-btn btn active">Добавить</button>
+					</form>
+				</div>
+			</div>
+			<!-- // Форма добавления новых задач -->
+		</div>
+		<!-- // container -->
+		<script src="./js/main.js"></script>
+	</body>
+</body>
+</html>
